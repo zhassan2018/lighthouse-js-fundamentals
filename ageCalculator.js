@@ -1,7 +1,7 @@
 function ageCalculator(name, yearOfBirth, currentYear)
 {
 	var age = currentYear- yearOfBirth;
-	return console.log(name+ " is "+ age + " years old")
+	return console.log(name + " is "+ age + " years old")
 
 }
 console.log(ageCalculator("Miranda", 1983, 2015));
